@@ -34,7 +34,7 @@
           set -euo pipefail
 
           if [ "$#" -ne 3 ]; then
-            echo -e "Usage: extract-sdk <path-to-xcode.xip> <expected-sha256-checksum> <outdir>"
+            echo -e "Usage: unxip <path-to-xcode.xip> <expected-sha256-checksum> <outdir>"
             exit 1
           fi
 
